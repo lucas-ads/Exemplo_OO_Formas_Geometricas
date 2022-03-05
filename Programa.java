@@ -7,8 +7,8 @@ public class Programa {
 		
 		Circulo c = new Circulo(10, 15, "Amarelo", "Preta", 6);
 		
-		Quadrado q = new Quadrado();
-		Retangulo r = new Retangulo();
+		Quadrado q = new Quadrado(12, 20, "Azul", "Rosa", 10);
+		Retangulo r = new Retangulo(7, 15, "Verde", "Violeta", 20, 14);
 		
 		
 		
