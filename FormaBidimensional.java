@@ -1,5 +1,5 @@
 
-public class FormaBidimensional {
+public abstract class FormaBidimensional {
 	private double posicaoX;
 	private double posicaoY;
 	private String preenchimento;
@@ -37,5 +37,7 @@ public class FormaBidimensional {
 		this.posicaoY = posicaoY;
 	}
 	
+	public abstract double calculaArea();
 	
+	public abstract double calculaPerimetro();
 }

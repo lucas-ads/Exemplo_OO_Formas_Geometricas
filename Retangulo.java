@@ -22,6 +22,12 @@ public class Retangulo extends FormaBidimensional{
 		this.base = base;
 	}
 	
+	public double calculaArea() {
+		return base * altura;
+	}
 	
+	public double calculaPerimetro() {
+		return (base * 2) + (altura * 2);
+	}
 	
 }

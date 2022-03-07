@@ -15,6 +15,12 @@ public class Quadrado extends FormaBidimensional{
 		this.lado = lado;
 	}
 
+	public double calculaArea() {
+		return lado * lado;
+	}
 	
+	public double calculaPerimetro() {
+		return lado * 4;
+	}
 	
 }
